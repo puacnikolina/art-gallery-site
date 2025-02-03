@@ -1,0 +1,113 @@
+body{
+    font-family: 'Web Serveroff', sans-serif;
+    background-color: black;
+}
+
+p{
+    color: whitesmoke;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0);
+    margin: 65px 180px;
+    text-align: right;
+    word-spacing: 3em;
+    font-size: 30px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color:#cfb157;
+    font-weight: 100;
+}
+
+
+header{
+    z-index: 1;
+    position: relative;
+}
+
+section{
+    width: 100%;
+    height: 500px; 
+    position: relative;
+}
+
+.hero-section {
+    width: 100%;
+    height: 650px; 
+    position: relative;
+    background-image: url(heropicture.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.heading{
+    font-family: 'WhoopAss', sans-serif;
+    text-align: center;
+    margin-left: 700px;
+    color: #cfb157;
+    font-size: 7em;
+    font-weight: bold;
+    line-height: 0.8;
+    margin-top: 160px;
+    margin-bottom: 20px;
+}
+
+.hero-quote {
+    margin-left: 850px;
+    font-size: 25px;
+    margin-top: 35px;
+    max-width: 600px;
+}
+
+.portrait{
+    margin: 100px 100px;
+}
+
+.short-bio{
+    font-size: 20px;
+    width: 650px;
+}
+
+.section2-container{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.section2{
+    width: 100%;
+    height: 650px; 
+    position: relative;
+}
+
+.art{
+    background-image: url(section3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery-container{
+    margin-left: 40px;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+figcaption{
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: whitesmoke;
+    font-size: 20px;
+}
